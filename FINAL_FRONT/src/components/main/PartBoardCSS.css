@@ -1,0 +1,270 @@
+.partNemo{
+  background: #f9f9f9;
+  top: 150px;
+  left: 300px;
+  width: 1230px;
+  height: 750px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+
+
+.partName{
+  color: #181e6c;
+padding: 10px;
+text-align: left;
+position: absolute;
+left: 50px;
+top: 15px;
+
+font-weight: 1000;
+font-size: 28px;
+}
+
+.circlePart{
+  position: absolute;
+  background: #dfe2fe;
+  left: 50px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.boardTable{
+  position: absolute;
+  left: 350px;
+  top: 255px;
+  width: 1130px;
+}
+
+.PartInput{
+  position: absolute;
+  left: 840px;
+  top: 60px;
+
+}
+
+.searchPart{
+  position: absolute;
+  background: #dfe2fe;
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  line-height: 30px;
+  color: #313131;
+  text-align: center;
+font-weight: 100;
+font-size: 20px;
+left: 1110px;
+top: 60px;
+
+}
+
+
+.searchPartGul{
+  position: absolute;
+  background: #8c8c8c;
+  left: 260px;
+  top: 15px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+font-weight: 100;
+font-size: 20px;
+left: 1080px;
+top: 60px;
+}
+
+
+
+
+
+
+/* BoardCSS.js */
+
+
+.pagination {
+  position: absolute;
+  margin-top: 20px;
+  left: 900px;
+  top: 750px;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #ebebeb;
+}
+
+
+
+
+
+
+
+
+
+.PartContent{
+
+top: 80px;
+left: 00px;
+width: 1230px;
+height: 800px;
+position: absolute;
+border-radius: 10px;
+}
+
+
+
+.noticeTable {
+padding-top: 100pxs;
+width: 90%;
+border-radius: 10px;
+margin: 0 auto;
+}
+
+.noticeTable td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+}
+
+.noticeTable td.titleCell {
+  background: linear-gradient(266.4deg, rgba(3, 101, 249, 0.2) 3.1%, rgba(0, 0, 0, 0) 52.96%), linear-gradient(93.59deg, rgba(255, 255, 255, 0.2) 7.8%, rgba(0, 0, 0, 0) 52.95%), linear-gradient(267.63deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 51.99%), linear-gradient(90.99deg, #6F88DD 1.62%, rgba(111, 136, 221, 0) 94.99%), linear-gradient(252.49deg, rgba(102, 25, 255, 0.7) 17.51%, rgba(77, 112, 237, 0) 61.99%), rgba(23, 74, 255, 0.7);
+color: white;
+}
+
+
+
+
+.contentCell {
+vertical-align: top;
+}
+
+.noticeTable .itemLabel {
+font-weight: bold;
+display: flex;
+justify-content: center;
+}
+
+
+.noticeTable .itemContent {
+display: flex;
+justify-content: center;
+font-size: 18px; /* 원하는 글꼴 크기로 변경해주세요 */
+}
+
+.noticeTable .itemContent.noticeTitle {
+font-size: 25px; /* 원하는 글꼴 크기로 변경해주세요 */
+}
+
+
+
+
+/*스크롤*/  
+.noticeTable .contentCell {
+height: 500px; /* 내용 부분의 고정 높이 설정 */
+justify-content: center;
+overflow-y: auto; /* 내용이 넘칠 경우 스크롤바 추가 */
+}
+
+.noticeTable .itemLabelOut {
+width: 30%; /* 내보내기 레이블의 너비 설정 */
+}
+
+.noticeTable .itemContentOut {
+width: 70%; /* 내보내기 내용의 너비 설정 */
+}
+
+/*스크롤*/  
+
+
+.backPartNotice{
+position: absolute;
+background: #ffffff;
+left: 1050px;
+top: 20px;
+width: 70px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+color: #313131;
+border-radius: 10px;
+
+}
+
+.kakaoIcon {
+margin-top: -70px;
+margin-left: 1060px;
+width: 25px; /* 이미지의 너비를 조정 */
+height: auto; /* 이미지의 높이를 자동으로 조정하여 가로세로 비율 유지 */
+margin-right: 5px; /* 이미지와 버튼 사이의 간격 조정 */
+}
+
+.customButton {
+left: 1090px;
+font-size: 18px; /* 버튼의 글꼴 크기 조정 */
+background-color: #8888cd; /* 버튼의 배경 색상 변경 */
+color: #ffffff; /* 버튼의 텍스트 색상 변경 */
+padding: 3px 5px; /* 버튼의 여백 조정 */
+  /* 외곽선 제거 */
+  outline: none;
+  border: none;
+  border-radius: 10px;
+
+}
+
+.customButton:hover {
+background-color: #000000; /* 버튼에 호버 상태일 때 배경 색상 변경 */
+}
+
+
+
+
+
+
+
+
+.column2 {
+width: 250px; /* 원하는 넓이로 설정 */
+}
+
+.column5 {
+width: 250px; /* 원하는 넓이로 설정 */
+text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.column3 {
+width: 40px; /* 원하는 넓이로 설정 */
+text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.column4 {
+width: 50px; /* 원하는 넓이로 설정 */
+text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.columnPartContent{
+width: 100px;
+font-weight: 1000px;
+color: #181e6c;
+text-align: center;
+}
+
+.column1 {
+width: 70px; /* 원하는 넓이로 설정 */
+text-align: center; /* 텍스트를 가운데 정렬 */
+}
+

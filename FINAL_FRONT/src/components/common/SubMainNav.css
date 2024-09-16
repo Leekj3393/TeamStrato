@@ -1,0 +1,201 @@
+.memberSubBar {
+    position: absolute;
+    left: 1300px;
+    top: 70px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(212, 212, 212);
+    transition: height 0.8s;
+}
+
+
+.mainTime{
+    position: absolute;
+    left: 1480px;
+    top: 5px;
+    text-align: center;
+    color: #313131;
+    background-color: #e8e8ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+
+
+.memberEmail:hover + .memberSubBar {
+    height: 400px;
+    
+}
+
+.memberSubBar.expanded {
+    height: 400px;
+}
+
+
+.message{
+    position: absolute;
+    border-radius: 100px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.mycard{
+    position: absolute;
+    border-radius: 100px;
+    width: 50px;
+    margin-left: 155px;
+}
+.resultName2{
+    margin-top: -20px;
+}
+.memberEmail{
+    position: absolute;
+    top: 5px;
+   left: 90px;
+    color: rgb(125, 125, 125);
+}
+
+.myStyle {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+    margin-left: 70px;
+  }
+
+.searchNameMy{
+    margin-left: -100px;
+}
+.cardMember{
+    top: 5px;
+    position: absolute;
+    margin-left: 215px;
+    color: rgb(125, 125, 125);
+}
+
+.heartCard{
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    top:5px;
+   left: 1610px;
+    color: rgb(125, 125, 125);
+    border-radius: 10px;
+}
+
+.logSub{
+        position: absolute;
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+        text-align: center;
+        line-height: 25px;
+        color: rgb(255, 255, 255);
+        background: linear-gradient(266.4deg, rgba(3, 101, 249, 0.2) 3.1%, rgba(0, 0, 0, 0) 52.96%), linear-gradient(93.59deg, rgba(255, 255, 255, 0.2) 7.8%, rgba(0, 0, 0, 0) 52.95%), linear-gradient(267.63deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 51.99%), linear-gradient(90.99deg, #6e90ff 1.62%, rgba(177, 195, 254, 0) 94.99%), linear-gradient(252.49deg, rgba(118, 49, 255, 0.7) 17.51%, rgba(77, 112, 237, 0) 61.99%), rgba(92, 126, 252, 0.7);
+        border-radius: 10px;
+        top: 8px;
+        left: 1550px;
+        font-weight: 800px;
+}
+
+
+.cardSkyLift{
+    position: absolute;
+    left: 15px;  /* 수정된 부분 */
+    top: 80px;  /* 수정된 부분 */
+
+    font-size: 16px;
+}
+
+.memberCard{
+    position: absolute;
+    top: 10px;
+
+    height: 160px;
+    width: 160px;
+
+    border-radius: 10px;
+}
+
+.cardContent{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    font-size: 17px;
+    
+}
+.titleAllMember {
+    position: relative;
+    height: 310px;
+    left: -200px;
+    top: 30px;
+    width: 270px;
+    border:2px solid rgb(224, 224, 224); 
+    border-radius: 10px;
+}
+
+.secondLogo{
+    margin-top: -20px;
+    margin-left: 0px;
+    width: 225px;
+    height: 130px;
+}
+
+.submitMember{
+    position: absolute;
+  left: -160px;
+  top: 43px;
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+}
+
+
+
+
+
+
+/* SubMainNav.css */
+
+.MembersEmail {
+    text-align: center;
+    margin-left: -110px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.name-label {
+    width: 130px;
+    padding: 1px;
+    background: #E3DBEE;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #411978;
+  }
+  
+
+  .name-ski{
+    width: 180px;
+    padding: 1px;
+    background: rgb(208, 207, 251);
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+
+    color: #0b0053;
+  }

@@ -1,0 +1,57 @@
+.eDetail-Ref
+{
+    position: relative;
+    bottom: 1000px;
+    left: 280px;
+    width: 1280px;
+}
+
+.equipmentInfo
+{
+    display: inline;
+}
+
+.buttonInfo
+{
+    margin-left: 880px;
+    width: 400px;
+    height: 60px;
+}
+
+.regist
+{
+    background-color: rgba(120, 190, 255, 0.5);
+    font-family: 'SUITE-Regular';
+    font-size: 18px;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.modify
+{
+    background-color: rgba(120, 190, 255, 0.5);
+    border-radius: 5px;
+    font-family: 'SUITE-Regular';
+    font-size: 18px;
+    width: 180px;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.pagebar
+{
+    width: 1280px;
+    height: 50px;
+}
+
+.pagebar .PagingBar_noticeDiv__t7dgk
+{
+    position: relative;
+    top: 0%;
+    left: 400px;
+    width: 1000px;
+    height: 50px;
+}

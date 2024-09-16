@@ -1,0 +1,23 @@
+.v-line
+{
+    width: 650px;
+}
+
+.detail-member-Info
+{
+    height: 250px;
+}
+
+.detail-salary-Info
+{
+    margin-top: 10px;
+    height: 350px;
+}
+
+.year-month
+{
+    position: relative;
+    display: flex;
+    top : 20px;
+}
+

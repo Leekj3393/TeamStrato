@@ -1,0 +1,109 @@
+.roleModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.roleModalDiv span {
+    margin-bottom: 30px;
+    font-size : 30px; 
+}
+
+.roleModalContainer {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);    
+    z-index: 1000;
+}
+
+.roleModalDiv {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 25px;    
+}
+
+.roleModalDiv label {
+    margin-right: 10px;
+}
+
+.modalEduTitle {
+    margin-top: -30px;
+}
+
+.modalEduTitle input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 70%;
+    border-radius: 25px;
+    text-indent: 1.2em;
+    background-color: #D4EDFF;
+}
+
+.roleModalDiv select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 90%;
+    border-radius: 25px;
+    text-indent: 1.2em;
+}
+
+.modalEduBt button {
+    background-color: #8CCEFD;
+    border : none;
+    padding : 5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modalEduVideo input {
+    display : none;
+}
+
+.modalVideoBt {
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(77,77,77);
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    &:hover {
+      background-color: rgb(190,223,247);
+      color: #fff;
+      
+    }
+}
+
+

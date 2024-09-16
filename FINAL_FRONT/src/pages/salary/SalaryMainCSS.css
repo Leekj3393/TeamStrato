@@ -1,0 +1,94 @@
+.salary-info
+{
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    bottom: 800px;
+    left: 300px;
+}
+
+.member-Info
+{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-Info p
+{
+    margin-left: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+.mP-1 , .mP-2
+{
+    font-size: 20px;
+    width: 89px;
+    height: 25px;
+}
+
+.mP-3
+{
+    font-size: 20px;
+    width: 150px;
+}
+
+.selcet-salary
+{
+    margin-top: 10px;
+    width: 320px;
+    height: 720px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px;
+} 
+
+.salary-th
+{
+    text-align: center;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    width: 60px;
+    height: 10px;
+}
+
+.salary-td
+{
+    text-align: center;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    width: 60px;
+    height: 10px;
+    border-left: solid 1px gray;
+}
+
+.salary-td:nth-child(1)
+{
+    text-align: center;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    width: 60px;
+    height: 10px;
+    border-left: 0px;
+}
+
+.salaryDetail
+{
+    position: relative;
+    bottom: 750px;
+    left: 350px;
+    width: 700px;
+    height: 690px;
+}
+
+.vv-line
+{
+    width: 950px;
+}

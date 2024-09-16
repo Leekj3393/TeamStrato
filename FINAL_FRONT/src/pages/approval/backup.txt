@@ -1,0 +1,117 @@
+<ul id="treePopAdmRegist" role='tree' tabIndex={0} aria-busy="false">
+                                <ul id='jstreeContainerUl' role='group'>
+                                    { members && members.map((member) => (
+                                    <li key={member.memberCode} role='treeitem' datatype='root'>
+                                        <i role='presentation'>
+                                        </i>
+                                        <a href='#' tabIndex={-1}>
+                                            <i role='presentation'></i>
+                                            <span>{member.memberName}</span>
+                                        </a>
+                                        <ul role='group'>
+                                            <li role='treeitem' datatype='node'>
+                                                <i role='presentation'></i>
+                                                <a href='#' tabIndex={-1}>
+                                                    <i role='presentation'></i>
+                                                    <div>
+                                                        <input type="radio" id={member.memberCode} name="selectMember"/*  value={qntjdnjs} */></input>
+                                                        <label for={member.memberCode}>{member.memberName}</label>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    ))}
+                                    <li role='treeitem' datatype='root'>부서2</li>
+                                    <li role='treeitem' datatype='root'>부서3</li>
+                                </ul>
+                            </ul>
+                        </div>
+
+
+// 결재선  안녕,,,,,,,,,
+ return(
+        <div className={ApprovalCSS}>
+            <div className={ApprovalCSS.square}></div>                           {/* 본문 하얀 네모 */}
+            <div className={ApprovalCSS.appLineContentDiv}>                      {/* 본문 내용 시작 */}
+                <div className={ApprovalCSS.flowInfo}>
+                    기안문 작성 &gt; <b>결재선/열람자 선택</b> &gt; 결재 요청
+                </div>
+                <div className={ApprovalCSS.organChart}>
+                    <fieldset>
+                        <legend> 조직도 </legend>
+                        <div>
+                            {departments && departments.map((department) => (
+                            <ul key={department.deptCode}>{department.deptName}
+                                {members && members.map((member) =>(
+                                <li key={member.department.deptCode}>
+                                    <input type='radio' id={member.memberCode} name='membersForSelect'></input>
+                                    <label for={member.memberCode}>{member.memberName}</label>
+                                </li>
+                                ))}
+                            </ul>
+                            ))}
+                        </div>
+                            
+                    </fieldset>
+                </div>
+                <div className={ApprovalCSS.selectBtnDiv}>
+                    <div className={ApprovalCSS.selectAppLineBtnDiv}>
+                        <button onClick={onClickApplineSelectHandler} >결재선1 &gt;</button><br/>
+                        <button onClick={onClickApplineResetHandler} >&lt; 결재선1</button><br/><br/>
+                        <button onClick={onClickApplineSelectHandler} >결재선2 &gt;</button><br/>
+                        <button onClick={onClickApplineResetHandler} >&lt; 결재선2</button><br/><br/>
+                        <button onClick={onClickApplineSelectHandler} >최종 결재선 &gt;</button><br/>
+                        <button onClick={onClickApplineResetHandler} >&lt; 최종 결재선</button><br/><br/>
+                    </div>
+
+                    <div className={ApprovalCSS.selectPeruserBtnDiv}>
+                        <button onClick={onClickPeruserSelectHandler} > 열람자 &gt;</button><br/>
+                        <button onClick={onClickPeruserResetHandler} >&lt; 열람자</button><br/><br/>
+
+                    </div>
+                </div>
+
+                <div className={ApprovalCSS.selectedDiv}>
+                    <div>
+                        <fieldset className={ApprovalCSS.selectedAppLine}>
+                            <legend>결재선</legend>
+                            <label>기안자</label>
+                            <input onChage={onChangeSelectedHandler} placeholder='기안자'></input><br/><br/>
+                            <label>결재선1</label>
+                            <input onChage={onChangeSelectedHandler} placeholder='결재선1'></input><br/><br/>
+                            <label>결재선2</label>
+                            <input onChage={onChangeSelectedHandler} placeholder='결재선2'></input><br/><br/>
+                            <label>최종 결재선</label>
+                            <input onChage={onChangeSelectedHandler} placeholder='최종 결재선'></input>
+                        </fieldset>
+                    </div>
+
+                    <div>
+                        <fieldset className={ApprovalCSS.selectedPerUser}>
+                            <legend>열람자</legend>
+                            {/* {data && data.map( (peruser) =>  */}
+                                <ul /* key={peruser.member.memberCode} */>
+                                    <li>
+                                        {/* {peruser.member.memberName} */}
+                                        <button onClick={() => onClickRemovePeruserHandler(/* peruser.member.memberCode */)}>X</button>
+                                    </li>
+                                </ul>
+                            {/* )} */}
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div className={ApprovalCSS.registFormDiv}>
+
+                    <button onClick={onClickInsertHandler}><img src='../image/app-regist-btn.png'></img></button>
+                    <button onClick={onClickResetHandler}><img src='../image/cancel-btn.png'></img></button>
+
+                </div>
+
+
+
+
+            </div>                                                                {/* 본문 내용 끝  */}
+        </div>
+    );

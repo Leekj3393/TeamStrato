@@ -1,0 +1,30 @@
+
+.eduListNavbar {
+    display: inline-block;
+      padding: 1.5% 3%;
+      font-size: 30px;
+      margin: 0 5px;
+      cursor: pointer;
+      border-radius: 20px;
+      color: #5b5b5b;
+      transition: all 0.5s ease-in-out; /* transition 속성 추가 */
+}
+
+.eduListNavbar.active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #7c85ed;
+    margin-top: 1.2%;;
+}
+
+.eduListTitle {
+    position: absolute;
+      top: 20px;
+      left: 80px;
+      width: 800px;
+}
+
+.eduListNavbar-wrapper {
+    text-align: left;
+}

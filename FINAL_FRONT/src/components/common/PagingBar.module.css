@@ -1,0 +1,23 @@
+.noticeDiv {
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    display: flex;
+    width: 850px;
+    margin: 10px;
+}
+
+.pagingBtn{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    margin-right: 4px;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    color: #6e6e6e;
+}
+
+.pagingBtn:hover{
+    background-color: #ebebeb;
+}

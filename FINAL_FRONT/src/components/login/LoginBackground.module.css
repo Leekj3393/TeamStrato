@@ -1,0 +1,81 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.loginBack {
+    width: 100%;
+    height: 100%;
+}
+  
+.loginBack{
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(266.4deg, rgba(22, 43, 118, 0.2) 3.1%, rgba(0, 0, 0, 0) 52.96%), linear-gradient(93.59deg, rgba(22, 43, 118, 0.2) 7.8%, rgba(0, 0, 0, 0) 52.95%), linear-gradient(267.63deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 51.99%), linear-gradient(90.99deg, #6F88DD 1.62%, rgba(111, 136, 221, 0) 94.99%), linear-gradient(252.49deg, rgba(0, 117, 192, 0.7) 17.51%, rgba(77, 112, 237, 0) 61.99%), rgba(0, 5, 48, 0.7);
+}
+
+.circleLogin1{
+
+position: absolute;
+width: 450px;
+height: 450px;
+border-radius: 100%;
+top: -15%;
+right: 5%;
+
+background: rgba(255, 255, 255, 0.25);
+}
+
+
+.circleLogin2{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    top: 40%;
+    right: 0%;
+    background: linear-gradient(219.59deg, rgba(255, 255, 255, 0.2) 17.71%, rgba(255, 255, 255, 0) 77.37%), rgba(255, 255, 255, 0.03);
+}
+.circleLogin3{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+border-radius: 100%;
+top: 55%;
+right: 75%;
+background: rgba(255, 255, 255, 0.25);
+}
+
+.circleLogin4{
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+border-radius: 100%;
+top: 30%;
+right: 70%;
+
+background: rgba(233, 196, 242, 0.4);
+}
+
+
+
+.rectangle1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -30%;
+    right: 60%;
+    border-left: 569.05px solid transparent;
+    border-right: 769.05px solid transparent;
+    border-top: 859.66px solid rgba(255, 255, 255, 0.07);
+    background: linear-gradient(92.37deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 51.99%);
+    transform: rotate(15deg);
+  }
+  
+  

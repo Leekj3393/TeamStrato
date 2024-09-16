@@ -3,11 +3,12 @@ import { useState } from "react";
 import styles from './Navbar2.css';
 
 function Navbar2() {
-  const [activeMenu, setActiveMenu] = useState("");
+  const [activeMenu, setActiveMenu] = useState("myPage"); // Set initial value to "myPage"
   const [selectedMenu, setSelectedMenu] = useState('myPage,myToDoList');
   const handleClick = (menuName) => {
     setActiveMenu(menuName);
   };
+
   
   return (
     <div className={styles.Navbar2}>
@@ -22,6 +23,10 @@ function Navbar2() {
           <NavLink to="/myPage/Document">
             <div className={`navbar2 ${activeMenu === "Document" ? "active" : ""}`} onClick={() => handleClick("Document")}>서류 신청</div>
           </NavLink>
+          <NavLink to="/myPage/PartNotice">
+            <div className={`navbar2 ${activeMenu === "PartNotice" ? "active" : ""}`} onClick={() => handleClick("PartNotice")}>부서별 공지사항</div>
+          </NavLink>
+
         </div>
         <hr />
       </div>

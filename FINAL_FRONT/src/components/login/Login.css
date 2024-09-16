@@ -1,0 +1,50 @@
+
+.whiteBox {
+    width: 60vh;
+    height: 70vh;
+    background: #FFFEFE;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 35%;
+    border-Radius: 20px;
+}
+.blueBox {
+    width: 60vh;
+    height: 23vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2B4296;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 40px 40px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.loginForm {
+    margin-top: 53%;
+}
+
+
+.stratoLogo {
+    width: 38%;
+    height: 32%;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
+.cloudImg {
+    width: 20%;
+    height: 35%;
+    margin-top: -10%;
+}
+
+.GroupwareImg {
+    width: 37%;
+    height: 43%;
+    margin-left: 32%;
+}

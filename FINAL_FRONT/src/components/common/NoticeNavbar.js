@@ -1,0 +1,60 @@
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import styles from './NoticeNavbar.css';
+
+function NoticeNavbar() {
+  const navigate = useNavigate();
+
+  const [activeMenu, setActiveMenu] = useState("notice");
+  const [selectedMenu, setSelectedMenu] = useState('notice', 'part', 'status');
+  const imgPath = 'image/manager-page-btn.png'
+  const [turnBtn, SetTurnBtn] = useState(imgPath);
+
+  const handleClick = (menuName) => {
+    setActiveMenu(menuName);
+  };
+
+  const imgPath2 = 'image/manager-page-btn-off.png'
+
+  // 톱니바퀴 버튼을 클릭하면 관리자페이지로 이동하는 버튼 핸들러~~
+  const onClickToManage = () => {
+    setActiveMenu(""); // activeMenu 초기화
+    SetTurnBtn(imgPath2);
+  };
+
+  // 톱니바퀴 버튼을 클릭하면 사용자페이지로 이동하는 버튼 핸들러~~
+  const onClickToUser = () => {
+    setActiveMenu(""); // activeMenu 초기화
+    SetTurnBtn(imgPath);
+  }
+  
+  return (
+    <div className={styles.Navbar2}>
+      <div className="title1">
+        <div className="title2">
+          <NavLink to="/notice-manage">
+            <>
+              {turnBtn === imgPath ? 
+                (<img className="btn" src={turnBtn} onClick={onClickToManage}/>) 
+                : (<NavLink to="/notice">
+                    <img className="btn" src={turnBtn} onClick={onClickToUser}/>
+                    <div className={`navbar2 ${activeMenu !== "" ? "" : null }`}></div>
+                  </NavLink>)
+              }
+            </>
+          </NavLink>
+          <b>공지사항</b>
+        </div>
+        
+        <div className="navbar2-wrapper">
+          <NavLink to="/notice">
+            <div className={`navbar2 ${activeMenu === "notice" ? "active" : ""}`} onClick={() => handleClick("notice")}>전체</div>
+          </NavLink>
+        </div>
+        <hr />
+      </div>
+    </div>
+  );
+}
+
+export default NoticeNavbar;

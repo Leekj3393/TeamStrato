@@ -1,0 +1,73 @@
+.memberId {
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+}
+
+.memberPwd {
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.memberName {
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+}
+
+.residentNo {
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.updatePwd {
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.loginFormBtn {
+    background-color: #2A4091;;
+    border-radius: 20px;
+    width: 52%;
+    height: 30px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.findIdFormBtn {
+    background-color: #2A4091;;
+    border-radius: 20px;
+    width: 52%;
+    height: 30px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.goBackBtn {
+    background-color: white;
+    border-radius: 20px;
+    width: 52%;
+    height: 30px;
+    color: black;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.idResult {
+
+    size: 10px;
+    margin-left: 32%;
+}

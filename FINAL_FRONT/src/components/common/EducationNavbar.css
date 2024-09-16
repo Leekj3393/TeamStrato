@@ -1,0 +1,44 @@
+.eduNavbar {
+    display: inline-block;
+      padding: 1.5% 3%;
+      font-size: 20px;
+      margin: 0 5px;
+      cursor: pointer;
+      border-radius: 20px;
+      color: #5b5b5b;
+      transition: all 0.5s ease-in-out; /* transition 속성 추가 */
+}
+
+.eduNavbar.active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #7c85ed;
+    margin-top: 1.2%;;
+  }
+
+.eduNavbar-wrapper {
+    text-align: left;
+}
+
+.eduTitle1 {
+    position: absolute;
+      top: 40px;
+      left: 280px;
+      width: 800px;
+}
+
+.eduTitle2 {
+    font-size: 30px;
+      text-align: center;
+      margin-left: 500px;
+      padding-bottom: 10px;
+}
+
+.eduHr {
+    width: 120%;
+      border: none;
+      height: 2px;
+      background-color: #b0b0b0;
+      margin: 1%;
+}

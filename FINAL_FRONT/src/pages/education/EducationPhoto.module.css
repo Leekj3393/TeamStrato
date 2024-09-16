@@ -1,0 +1,58 @@
+.back {
+    background-color: #ffffff;
+      border-radius: 15px;
+      width: 1150px;
+      height: 780px;
+      left: 300px;
+      top : 170px;
+      position: absolute;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.registBt a{
+    background-color: #8CCEFD;
+    left: 990px;
+    top: 50px;
+    border-radius: 15px;
+    font-size: 15px;  
+    border : none;
+    padding : 8px 15px;
+    position : absolute;
+    font-weight: bold;
+}
+
+.Image {
+    height: 200px;
+    width: 250px;
+    border : 1px solid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Image img {
+    height: 200px;
+    width: 250px;
+}
+
+.div {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.ImgDiv span {
+    margin-left: 50px;
+    font-size: 20px; 
+}
+
+.flexDiv {
+    display : flex;
+    flex-wrap : wrap;
+}
+
+

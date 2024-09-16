@@ -1,0 +1,476 @@
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+}
+
+/* 공통 */
+.square {
+  position: absolute;
+  top: 180px;
+  left: 290px;
+  background-color: white;
+  border-radius: 10px;
+  height: 670px;
+  width: 1350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.appContentDiv {
+  font-family: 'SUITE-Regular';
+  position: absolute;
+  top: 180px;
+  left: 350px;
+  height: 670px;
+  width: 1350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flowInfo {
+  position: absolute;
+  left: 20px;
+}
+
+
+
+/* main ------------------------------------------------------------------------------------------------------------------ */
+.appListTatbleDiv2{
+  position: absolute;
+  top: 220px;
+}
+.appMainTableInfo{
+  position: absolute;
+  top: 300px;
+  left: 60px;
+}
+.appInfoBoxDiv{
+  background: rgb(140 140 140/0.2);
+  position: absolute;
+  top: 80px;
+  width: 1100px;
+  height: 200px;
+  left: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.WTBox, 
+.IPBox,
+.ACBox,
+.RTBox  {
+  position: absolute;
+  top: 10px;
+  padding-top: 15px;
+  background: hsla(216, 89%, 71%, 0.842);
+  border-radius: 10px;
+  width: 200px;
+  height: 160px;
+}
+
+.WTBox{
+  position: absolute;
+  left: 60px;
+}
+
+.IPBox{
+  position: absolute;
+  left: 320px;
+}
+
+.ACBox{
+  position: absolute;
+  left: 570px;
+}
+
+.RTBox{
+  position: absolute;
+  left: 830px;
+}
+
+.ea{
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  height: 90px;
+  padding-top: 35px;
+  background: white;
+  color: midnightblue;
+  font-size: 50px;
+}
+
+/* 결재문서 목록--------------------------------------------------------------------------------------- */
+.approvalTitleCircle{
+  position: absolute;
+  background: #dfe2fe;
+  left: 50px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+.appListTable {
+  position: absolute;
+  left: 45px;
+  top: 130px;
+  width: 1150px;
+  height: min-content;
+}
+
+.appListTable thead th, .appListTable tbody {
+  text-align: center;
+}
+
+.appListTable tbody td{ cursor: pointer; }
+
+.column1{ width: 66px; }
+.column2{ width: 50px; } 
+.column4 { width: 200px; } 
+.column5 { width: 50px; } 
+.column6 { width: 150px; } 
+.column3 { width: 150px; } 
+
+.appListTableInfo {
+  color: #181e6c;
+  padding: 10px;
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  top: 15px;
+  
+  font-weight: 1000;
+  font-size: 28px;
+}
+
+
+
+/* 결재문서 등록--------------------------------------------------------------------------------------- */
+.flowInfo {
+  position: absolute;
+  left: 20px;
+}
+
+.registFormDiv {
+  position: absolute;
+  left: 900px;
+}
+
+.registFormDiv button {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.registFormDiv img {
+  width: 100px;
+}
+
+.nextBtnDiv {
+  position: absolute;
+  left : 750px;
+  top: 830px;
+}
+
+
+.nextBtnDiv button {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.nextBtnDiv img {
+  width: 100px;
+}
+
+.appFormDiv {
+  position: absolute;
+  top: 70px;
+  left: 30px
+}
+
+.appFormDiv table {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 1100px;
+  height: 500px;
+  word-wrap: unset;
+}
+
+.appFormDiv table #textInput{
+  position: relative;
+  width: 100px !important;
+  height: 30px;
+}
+
+.appFormDiv table textarea {
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  resize: none;
+}
+
+
+/* 결재선 등록--------------------------------------------------------------------------------------- */
+.selectApplineDiv {
+  position:absolute;
+  left: 150px;
+  top: 170px;
+}
+
+.memberChartBox {
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  background: hwb(220 78% 21% / 0.192);
+  overflow: scroll; /* 스크롤바 생성을 위한 속성 추가 */
+}
+
+
+.memberChartContent,
+.selectedMemberContent {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.contentInfoDiv {
+  background-color: hsla(229, 100%, 89%, 0.548);
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  font-size: medium;
+  padding-top: 5px;
+}
+
+.contentInfoDiv2 {
+  background-color: hwb(0 100% 0%);
+  box-shadow: 1px 1px 1px hsla(229, 100%, 89%, 0.548);
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center;
+  height: 23px;
+  font-size: medium;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  margin-left: -1px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contentInfoDiv3,
+.contentInfoDiv4,
+.firstAccessor,
+.secondAccessor,
+.finalAccessor {
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+.selectedMemberDiv {
+  position: absolute;
+  top: 170px;
+  left: 700px;
+  background: hwb(220 78% 21% / 0.192);
+  height: 400px;
+  width: 350px;
+}
+
+.registFormDiv2 {
+  position: absolute;
+  left: 830px;
+}
+
+.registFormDiv2 button {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.registFormDiv2 img {
+  width: 100px;
+}
+
+/* 결재문서 상세 조회--------------------------------------------------------------------------------------- */
+.appDetailDiv{
+  position: absolute;
+  top: 20px;
+  left: 350px;
+}
+
+.applineInfoBoxDiv {
+  position: absolute;
+  top: -270px;
+  left: 550px;
+  width:600px;
+  height: 130px;
+  /* flex-wrap: wrap; */
+  
+}
+
+.applineInfoBoxDiv table {
+  position: absolute;
+  /* margin-right: 1px; */
+  /* flex-wrap: wrap; */
+  text-align: center;
+  height: 100px;
+}
+
+.applineInfoBoxDiv table th {
+  text-align: center;
+  font-size: small;
+  height: 5px;
+}
+
+.applineInfoBoxDiv table td {
+  text-align: center;
+  font-size: medium;
+  height: 10px;
+}
+
+.approvalDetailTable {
+  position: absolute;
+  top: 150px;
+  left: -300px;
+  height: 500px;
+  width: 1100px;
+}
+
+.col14 {
+  overflow: scroll;
+  width: 800px;
+}
+.col8, .col10{
+  width: 100px;
+}
+
+/* 결재 승인/반려페이지--------------------------------------------------------------------------------------- */
+.appAccessorDiv{
+  position: absolute;
+  top: -150px;
+  left: 50px;
+}
+
+.applineInfoBoxDiv2 {
+  position: absolute;
+  top: -290px;
+  left: 550px;
+  width:600px;
+  height: 130px;
+  /* flex-wrap: wrap; */
+  
+}
+
+.applineInfoBoxDiv2 table {
+  position: absolute;
+  /* margin-right: 1px; */
+  /* flex-wrap: wrap; */
+  text-align: center;
+  height: 100px;
+}
+
+.applineInfoBoxDiv2 table th {
+  text-align: center;
+  font-size: small;
+  height: 5px;
+}
+
+.applineInfoBoxDiv2 table td {
+  text-align: center;
+  font-size: medium;
+  height: 10px;
+}
+
+.approvalAccessorTable {
+  position: absolute;
+  /* top: 300px; */
+  /* left: -10px; */
+  height: 400px;
+  width: 1100px;
+}
+
+.appAccessTable {
+  position: absolute;
+  top: 710px;
+  /* left: -10px; */
+  width: 1100px;
+  height: 70px;
+}
+
+.appAccessTable tr td input {
+ width: 100px;
+ height: 30px;
+ width: 150px;
+ margin-right: 20px;
+}
+
+.appAccessTable tr td button {
+  top: 10p;
+  width: 100px;
+  /* height: 50px; */
+}
+
+.registAppLineDiv {
+  position: absolute;
+  top: 800px;
+  height: 150px;
+  width: 1200px;
+}
+
+.registAppLineDiv button {
+  width: 100px;
+  height: 40px;
+}
+
+.registAppLineDiv button img {
+  width: 100px;
+  height: 40px;
+}
+
+.accessBtn {
+  position: absolute;
+  left: 800px;
+
+}
+
+.returnBtn {
+  position: absolute;
+  left: 950px;
+  /* flex-wrap: nowrap; */
+
+}
+
+.identifyBtn {
+  position: absolute;
+  left: 470px;
+  top: 18px;
+}
+
+.identifyBtn img {
+  height: 30px;
+  width: 80px;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7 {
+  text-align: center;
+  width: 150px;
+}
+
+.col8, .col9 {
+  width: 500px;
+}
+.col10, .col11, .col12 {
+  width: 450px;
+}
+
+.col77 {
+  text-align: center;
+  width: 80px;
+}
+
+/* .col14 {
+  overflow: scroll;
+} */
+
+.accessorTr1, .accessorTr2, .accessorTr3 {
+  height: 20px;
+}

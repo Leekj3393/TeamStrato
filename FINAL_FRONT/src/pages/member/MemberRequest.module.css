@@ -1,0 +1,98 @@
+.roleModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.roleModalDiv span {
+    margin-bottom: 50px;
+    font-size : 30px; 
+}
+
+.modalInDiv {
+    margin-top: 30px;
+}
+.roleModalContainer {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);    
+    z-index: 1000;
+}
+
+.roleModalDiv {
+    width: 400px;
+    height: 450px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10px;    
+}
+
+.roleModalDiv input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 20%;
+    border-radius: 15px;
+    text-indent: 1.1em;
+    background-color: #D4EDFF;
+}
+
+.roleModalDiv label {
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.roleModalDiv select {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 30%;
+    border-radius: 25px;
+    text-indent: 1.2em;
+}
+
+.roleModalDiv button {
+    background-color: #8CCEFD;
+    border : none;
+    padding : 5px 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.preRoleDiv {
+    /* display: flex; */
+}
+
+.deptDiv {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.jobDiv {
+    margin-left: 20px;
+}

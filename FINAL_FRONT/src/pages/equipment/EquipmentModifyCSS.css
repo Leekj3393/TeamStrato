@@ -1,0 +1,39 @@
+.MRef-div
+{
+    position: relative;
+    bottom: 950px;
+    left: 280px;
+    height: 680px;
+    width: 1280px;
+}
+
+.div-talbe
+{
+    margin-top: 20px;
+    height: 350px;
+}
+
+.ModifyInfo
+{
+    margin-top: 10px;
+    height: 350px;
+    background-color: beige;
+}
+
+.deleteBtn
+{
+    position: relative;
+    right: 750px;
+    bottom: 30px;
+    background-color: rgba(120, 190, 255, 0.5);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.pagInfo
+{
+    position: relative;
+    right: 380px;
+    bottom: 860px;
+}

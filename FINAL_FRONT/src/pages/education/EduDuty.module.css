@@ -1,0 +1,75 @@
+.eduListBack {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 1150px;
+    height: 780px;
+    left: 300px;
+    top : 170px;
+    position: absolute;
+}
+
+.eduListDiv {
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top : 90px;
+    /* position: absolute; */
+    padding: 5px 5px;
+}
+
+.eduListTitle {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.eduListStatus button {
+    text-align: center;
+    margin-left: 95px;
+    margin-top: 40px;
+    border-radius: 15px;
+    font-size: 13px;  
+    border : none;
+    padding : 5px 15px;
+}
+
+.eduListTime {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.eduListBtContinue button {
+    background-color: #8CCEFD;
+    border : none;
+    padding : 5px 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.eduListBtWatch button {
+    background-color: #FF5252;
+    border : none;
+    padding : 5px 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.eduListFlex {
+    display : flex;
+    flex-wrap : wrap;
+}
+

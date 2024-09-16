@@ -2,14 +2,8 @@
 @font-face {
   font-family: 'SUITE-Regular';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
 }
 
-/* 폰트 적용할 요소에 속성 적용 */
-.my-element {
-  font-family: 'SUITE-Regular';
-}
 
 .todo1{
     background:#ffff;
@@ -20,7 +14,7 @@
     width: 400px;
     left: 300px;
     border-radius: 10px;
-
+    font-family: 'SUITE-Regular';
 }
 
 .todoText1{
@@ -63,14 +57,13 @@
 }
 
 .partBoard{
-  background:#6C77A5;
+  background: linear-gradient(266.4deg, rgba(3, 101, 249, 0.2) 3.1%, rgba(0, 0, 0, 0) 52.96%), linear-gradient(93.59deg, rgba(255, 255, 255, 0.2) 7.8%, rgba(0, 0, 0, 0) 52.95%), linear-gradient(267.63deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 51.99%), linear-gradient(90.99deg, #6F88DD 1.62%, rgba(111, 136, 221, 0) 94.99%), linear-gradient(252.49deg, rgba(102, 25, 255, 0.7) 17.51%, rgba(77, 112, 237, 0) 61.99%), rgba(136, 162, 255, 0.7);
+  border-radius: 10px;
   position: absolute;
   top: 65px;
   width: 460px;
   height: 80px;
   left: 1230px;
-
-
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 400;
@@ -91,15 +84,70 @@
 }
 
 .todoText0 {
-    padding: 40px 40px 10px 350px;
+    padding: 60px 50px 10px 290px;
     font-family: 'Inria Sans';
     font-style: normal;
     font-weight: 520; /* 폰트 두께를 600으로 지정 */
-    font-size: 24px;
+    font-size: 17px;
     line-height: 36px;
   
-    color: #153ABC;
+    color: #5c5c5c;
 }
+
+.todoTextNotice{
+  padding: 60px 50px 10px 340px;
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 520; /* 폰트 두께를 600으로 지정 */
+  font-size: 17px;
+  line-height: 36px;
+
+  color: #5c5c5c;
+}
+
+.more2{
+  position: absolute;
+  width: 30px;
+  height: 32px;
+}
+.more{
+  margin-left: 0px;
+  position: absolute;
+  width: 30px;
+  height: 32px;
+}
+
+.salaryMain1 {
+
+  width: 200px;
+  height: 150px;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  line-height: 30px;
+  color: #050505;
+}
+.salaryMain2{
+  background-color: rgba(255, 255, 255);
+  margin-top: 30px;
+  height: 50px;
+}
+
+.more3{
+  margin-left: 30px;
+  position: absolute;
+  width: 30px;
+  height: 32px;
+}
+
+.more4{
+  margin-left: 0px;
+  margin-top: -8px;
+  position: absolute;
+  width: 30px;
+  height: 32px;
+}
+
 
 .todoNumber1 {
     padding: 100px 40px 10px 40px;
@@ -173,7 +221,7 @@ color: #9B4646;
     text-align: center;
 
 position: absolute;
-width: 90px;
+width: 105px;
 height: 41px;
 
 font-family: 'Inria Sans';
@@ -242,7 +290,7 @@ color: #9B4646;
     text-align: center;
 
 position: absolute;
-width: 90px;
+width: 105px;
 height: 41px;
 
 font-family: 'Inria Sans';
@@ -311,7 +359,7 @@ color: #3E6039;
     left: 300px;
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 25px;
 
 }
@@ -329,16 +377,201 @@ color: #3E6039;
 }
 
 
-.edu{
+.charMain{
     background:#ffff;
     position: absolute;
     top: 545px;
     height: 400px;
-    width: 460px;
-    left: 1230px;
+    width: 410px;
+    left:300px;
     border-radius: 10px;
 
 }
+
+
+.edu{
+  background:#ffff;
+  position: absolute;
+  top: 803px;
+  height: 140px;
+  width: 965px;
+  left:740px;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+.card {
+  position: relative;
+  width: 230px;
+  height: 250px;
+  perspective: 1000px;
+  
+}
+
+.cardName1{
+  width: 115px;
+  height: 40px;
+  background-color: #f9a6d4;
+  text-align: center;
+  border-radius: 10px;
+
+  margin-top: 15px;
+  margin-left: 60px;
+  font-weight: 600px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.cardName2{
+  width: 115px;
+  height: 40px;
+  background-color: #abadff;
+  text-align: center;
+  border-radius: 10px;
+
+  margin-top: 15px;
+  margin-left: 60px;
+  font-weight: 600px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.cardName3{
+  width: 115px;
+  height: 40px;
+  background-color: #fca689;
+  text-align: center;
+  border-radius: 10px;
+
+  margin-top: 15px;
+  margin-left: 60px;
+  font-weight: 600px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.cardName4{
+  width: 115px;
+  height: 40px;
+  background-color: #ffd11b;
+  text-align: center;
+  border-radius: 10px;
+
+  margin-top: 15px;
+  margin-left: 60px;
+  font-weight: 600px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+.front {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgb(228, 234, 250)
+}
+
+.next {
+  position: absolute;
+  width: 960px;
+  height: 120px;
+  left: 300px;
+  top: 20px;
+  background-position-x: 100px;
+  border-radius: 10px;
+}
+
+
+
+
+.backMain {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(212, 212, 212);
+  transform: rotateY(180deg);
+}
+
+.card:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .backMain {
+  transform: rotateY(0);
+}
+
+
+.backMain1 {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(212, 212, 212);
+  transform: rotateY(180deg);
+}
+
+.card:hover .backMain1 {
+  transform: rotateY(0);
+}
+
+.backMain2 {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(212, 212, 212);
+  transform: rotateY(180deg);
+}
+
+.card:hover .backMain2 {
+  transform: rotateY(0);
+}
+
+.backMain3 {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(212, 212, 212);
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+.card:hover .backMain3 {
+  transform: rotateY(0);
+}
+
+
+.cartFront{
+  width: 120px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.itemMain1 {
+  position: absolute;
+  top: 545px;
+  left:740px;
+}
+
+.itemMain2 {
+  position: absolute;
+  top: 545px;
+  left:985px;
+}
+
+.itemMain3 {
+  position: absolute;
+  top: 545px;
+  left:1228px;
+}
+
+.itemMain4 {
+  position: absolute;
+  top: 545px;
+  left:1472px;
+}
+
 
 
 .meal{
@@ -352,16 +585,6 @@ color: #3E6039;
 
 }
 
-.cal{
-    background:#ffff;
-    position: absolute;
-    top: 545px;
-    width: 450px;
-    height: 225px;
-    left: 1200px;
-    border-radius: 10px;
-
-}
 .attNemo1{
   
   background:#ffff;
@@ -560,9 +783,9 @@ color: #3E6039;
 .news{
     background:#ffff;
     position: absolute;
-    top: 730px;
+    top: 540px;
     width: 910px;
-    height: 215px;
+    height: 335px;
     left: 300px;
     border-radius: 10px;
 
@@ -596,8 +819,9 @@ color: #3E6039;
     top: 100px;
     width: 423px;
     height: 74px;
-    
+    font-size: 18px;
     background: rgba(186, 183, 183, 0.2);
+
     border-radius: 20px;
 
   }
@@ -608,7 +832,19 @@ color: #3E6039;
     top:190px;
     width: 423px;
     height: 74px;
-    
+    font-size: 18px;
+    background: rgba(186, 183, 183, 0.2);
+    border-radius: 20px;
+
+  }
+
+  .circle12 {
+    position: absolute;
+    left: 20px;
+    top:278px;
+    width: 423px;
+    height: 74px;
+    font-size: 18px;
     background: rgba(186, 183, 183, 0.2);
     border-radius: 20px;
 
@@ -616,10 +852,11 @@ color: #3E6039;
 
 .notic3 {
   position: relative;
-  padding: 20px 0px 0px 35px;
-  top: 105px;
+  padding: 20px 0px 0px 17px;
+  top: 75px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
+  color: #373737;
 }
 
 .BoradImg{
@@ -633,10 +870,21 @@ opacity: 0.3;
 
 .notic4 {
   position: relative;
-  padding: 20px 0px 0px 35px;
-  top: 150px;
+  padding: 20px 0px 0px 9.5px;
+  top: 65px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
+  color: #373737;
+  
+}
+
+.notic5{
+  position: relative;
+  padding: 20px 0px 0px 11px;
+  top: 55px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #373737;
 }
 
 
@@ -660,12 +908,84 @@ opacity: 0.3;
 }
   
   .edutitle1::after {
-    content: "교육 이수";
+    content: "근태 확인";
     color: #3552BB; /* 파란색으로 변경합니다 */
   }
 
   .edutitle2{
-    padding: 80px 0px 0px 55px;
+    padding: 20px 0px 10px 40px;
+    position: absolute;
+  
+    font-style: normal;
+    font-weight: 550; /* 폰트 두께를 600으로 지정 */
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+.image-item {
+  margin-right: 10px; /* 오른쪽에 10px 간격을 줍니다. */
+  
+}
+
+.image-container {
+  display: flex; 
+}
+
+.image-item img {
+  width: 150px; 
+  height: 100px; 
+  object-fit: cover;
+  margin-left: 220px;
+  margin-top: -30px;
+}
+
+.image-item:not(:last-child) {
+  margin-right: -90px; /* 원하는 간격으로 조절하세요. */
+}
+
+.eduName {
+  margin-left: 270px;
+  margin-top: -5px; /* 원하는 간격으로 조절하세요. */
+}
+
+.eduMain2{
+  position: absolute;
+  width: 170px;
+  height: 100px;
+  margin-left: 480px;
+  margin-top: -30px;
+}
+
+.eduName2{
+  position: absolute;
+  margin-left: 520px;
+  margin-top: 75px;
+}
+
+.eduMain3{
+  position: absolute;
+  width: 170px;
+  height: 100px;
+  margin-left: 730px;
+  margin-top: -30px;
+}
+
+.eduName3{
+  position: absolute;
+  margin-left: 770px;
+  margin-top: 75px;
+}
+
+
+
+  .edutitle3::after {
+    content: "교육 보기";
+    color: #3552BB; /* 파란색으로 변경합니다 */
+  }
+
+  .edutitle3{
+    padding: 20px 0px 0px 55px;
     font-size: 18px;
     color: #545454;
   }
@@ -964,4 +1284,193 @@ opacity: 0.3;
   line-height: 31px;
   color: #000000;
 
+}
+
+
+
+/* Main.css 파일 */
+
+.weather-text {
+  font-size: 18px;
+  color: #555;
+  animation: moveAnimation 2s linear infinite;
+}
+
+@keyframes moveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+.notic2 {
+  top: -10px;
+  right: 10px;
+  position: relative;
+}
+
+.notic2 li {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 0.5s ease forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-news {
+  margin-top: -80px;
+  margin-left: -30px;
+  animation: bounce 2s infinite;
+}
+
+
+
+
+#snow-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+
+#map-image {
+
+  width: 910px;
+  height: 360px;
+  border-radius: 10px;
+}
+
+
+
+#map-container {
+  position: relative;
+  display: inline-block;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.circle:hover {
+  background-color: #888;
+}
+
+.info-container {
+  position: relative;
+}
+
+.info-container .circle {
+  margin-right: 5px;
+}
+
+.info-popup {
+  position: absolute;
+  display: none;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.3s ease-out;
+  left: 40px;
+  top: -40px;
+}
+
+.circle:hover .info-popup {
+  display: block;
+}
+
+
+.mapText{
+  background: #C2DABE;
+  border-radius: 10px;
+  text-align: center;
+  width: 205px;
+  height: 41px;
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 41px;
+  color: #3E6039;
+
+}
+
+
+.name-salry{
+  width: 150px;
+  background: #ececec;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+
+  color: #616161;
+}
+
+
+.memberMain{
+  text-align: center;
+  font-size: 19px;
+  color: #0a0f6e;
+
+}
+
+.salaryMain2{
+  text-align: center;
+}
+
+
+
+.chart-container {
+  width: 320px;
+  height: 320px;
+  margin-left: 50px;
+  margin-top: 50px;
 }

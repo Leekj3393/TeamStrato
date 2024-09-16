@@ -1,0 +1,27 @@
+.noticeDiv {
+    position: absolute;
+    top: 720px;
+    left: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 10px;
+}
+
+.pagingBtn{
+    margin: 2px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+}
+
+.pagingBtn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+li {
+    list-style: none;
+}

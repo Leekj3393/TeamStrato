@@ -1,0 +1,34 @@
+.EquNavBody
+{
+    position: relative;
+    bottom: 900px;
+    left: 248px;
+    width: 1360px;
+    height: 250px;
+}
+
+.equDiv
+{
+    position: relative;
+    bottom: 950px;
+    left: 300px;
+    width: 1300px;
+    height: 630px;
+}
+
+.equTable
+{
+    height: 100%;
+}
+
+.etbody tr :hover
+{
+    background-color: #0093FB;
+}
+
+.pageBar
+{
+    position: relative;
+    bottom: 800px; 
+    right: 250px;
+}

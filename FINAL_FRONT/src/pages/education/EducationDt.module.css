@@ -1,0 +1,88 @@
+.eduDtBack {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 1150px;
+    height: 780px;
+    left: 300px;
+    top : 170px;
+    position: absolute;
+}
+
+.eduDtTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.eduDtVideo {
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.eduDtpro {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.eduDtBt {
+    margin-left: 460px;
+}
+
+.eduDtBt button {
+    background-color: #8CCEFD;
+    border : none;
+    padding : 5px 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.eduDtBt button:hover {
+    background-color: #0093FB;
+}
+
+.eduPlayTime {
+    margin-left: 330px;
+}
+
+.eduPlayTime span {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.eduPlayTime button {
+    background-color: #8CCEFD;
+    border : none;
+    padding : 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-top: 30px; */
+}
+
+.eduPlayTime button:hover {
+    background-color: #0093FB;
+}
+
+.eduPlayTime img {
+    width: 15px;
+    height: 15px;
+    padding-top: 4px;
+    padding-left: 1px;
+}
+

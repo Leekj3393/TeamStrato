@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Map</title>
+    <style>
+                #snow-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 100;
+        }
+        #map-image {
+            width: 500px; /* 원하는 가로 크기 */
+            height: auto; /* 높이는 자동으로 비율에 맞춤 */
+        }
+
+        body {
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #map-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background-color: #ffffff;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .circle:hover {
+            background-color: #888;
+        }
+
+        .info-container {
+            position: relative;
+        }
+
+        .info-container .circle {
+            margin-right: 5px; /* 동그라미와 텍스트 사이 간격 조절 */
+        }
+
+        .info-popup {
+            position: absolute;
+            display: none;
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: all 0.3s ease-out;
+            left: 40px; /* 동그라미와의 간격을 조절 */
+            top: -40px; /* 텍스트 박스 위치 조절 */
+        }
+
+        .circle:hover .info-popup {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <canvas id="snow-canvas"></canvas>
+        <img id="map-image" src="/FINAL_FRONT/public/image/스키장.png" alt="Map">
+        <div class="info-container" style="position: absolute; top: 100px; left: 100px;">
+            <div class="circle">
+                ⚪
+                <div class="info-popup">새로운 위치 1</div>
+            </div>
+        </div>
+        <div class="info-container" style="position: absolute; top: 150px; left: 150px;">
+            <div class="circle">
+                ⚪
+                <div class="info-popup">새로운 위치 2</div>
+            </div>
+        </div>
+        <div class="info-container" style="position: absolute; top: 200px; left: 200px;">
+            <div class="circle">
+                ⚪
+                <div class="info-popup">새로운 위치 3</div>
+            </div>
+        </div>
+        <div class="info-container" style="position: absolute; top: 250px; left: 250px;">
+            <div class="circle">
+                ⚪
+                <div class="info-popup">새로운 위치 4</div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <script>
+    const canvas = document.getElementById('snow-canvas');
+    const ctx = canvas.getContext('2d');
+
+    // 캔버스 크기를 브라우저 창 크기에 맞게 설정
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+        const snowflakes = [];
+
+        function createSnowflake() {
+            const x = Math.random() * canvas.width;
+            const y = 0;
+            const speed = Math.random() * 3 + 2;
+            const radius = Math.random() * 4 + 1;
+
+            snowflakes.push({ x, y, speed, radius });
+        }
+
+        function drawSnowflake(snowflake) {
+            ctx.beginPath();
+            ctx.arc(snowflake.x, snowflake.y, snowflake.radius, 0, Math.PI * 2);
+            ctx.fillStyle = 'white';
+            ctx.fill();
+        }
+
+        function updateSnowflake(snowflake) {
+            snowflake.y += snowflake.speed;
+
+            if (snowflake.y > canvas.height) {
+                snowflake.y = 0;
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            snowflakes.forEach((snowflake) => {
+                drawSnowflake(snowflake);
+                updateSnowflake(snowflake);
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        function resize() {
+            canvas.width = mapImage.width;
+            canvas.height = mapImage.height;
+        }
+
+        const mapImage = document.getElementById('map-image');
+        mapImage.onload = () => {
+            resize();
+            animate();
+        };
+
+        for (let i = 0; i < 100; i++) {
+            createSnowflake();
+        }
+
+        window.addEventListener('resize', resize);
+        //
+
+        const infoPopups = document.querySelectorAll('.info-popup');
+
+        function showInfoPopup(event) {
+            const infoPopup = event.currentTarget.querySelector('.info-popup');
+            infoPopup.style.display = 'block';
+        }
+
+        function hideInfoPopup(event) {
+            const infoPopup = event.currentTarget.querySelector('.info-popup');
+            infoPopup.style.display = 'none';
+        }
+
+        const circles = document.querySelectorAll('.circle');
+        circles.forEach(circle => {
+            circle.addEventListener('mouseover', showInfoPopup);
+            circle.addEventListener('mouseout', hideInfoPopup);
+        });
+    </script>
+</body>
+</html>

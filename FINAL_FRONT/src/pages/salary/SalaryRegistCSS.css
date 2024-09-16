@@ -1,0 +1,137 @@
+.regist-salary
+{
+    position: relative;
+    bottom: 820px;
+    left: 280px;
+    width: 970px;
+    height: 800px;
+    background-color: white;
+} 
+
+.saMember-Info
+{
+    width: 100px;
+    height: 700px;
+}
+
+.saThCell
+{
+    width: 150px;
+    text-align: left;
+    background-color: #F0F0F0;
+    color: rgb(61, 61, 61);
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.saTdCell
+{
+    background-color: #ffffff;
+    color: rgb(61, 61, 61);
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    padding: 10px;
+}
+
+.member-select
+{
+    background-color: rgba(120, 190, 255, 0.5);
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+}
+
+.select-day
+{
+    display: flex;
+}
+
+.day-date
+{
+    top: 5px;
+    position: relative;
+    height: 40px;
+    width: 150px;
+    left: 30px;
+}
+.save-div
+{
+    height: 40px;
+    bottom: 35px;
+    margin-left: 850px;
+}
+.save-btn
+{
+    background-color: rgba(120, 190, 255, 0.5);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.seclet-btn
+{
+    margin-left: 40px;
+}
+
+.Ref-sal-att
+{
+    position: relative;
+    bottom: 800px;
+    left: 290px;
+    width: 970px;
+    height: 800px;
+}
+
+.att-sal-Info
+{
+    height: 600px;
+    display: flex;
+}
+
+.sal-att-Ref
+{
+    width: 950px;
+    height: 200px;
+    bottom: 800px;
+    left: 300px;
+}
+
+.valueBox
+{
+    width: 600px;
+}
+
+.att-Info
+{
+    width: 630px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.sal-Info
+{
+    margin-top: 25px;
+    width: 630px;
+    height: 380px;
+    margin-left: 40px;
+}
+
+.search-salary
+{
+    width: 300px;
+    height: 600px;
+    background-color: white;
+}
+
+.pagebarSal
+{
+    position: static;
+    right: 120px;
+    width: 200px;
+}
+
+.pagebarSal div
+{
+    position: static;
+}

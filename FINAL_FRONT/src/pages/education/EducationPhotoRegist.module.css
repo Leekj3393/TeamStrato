@@ -1,0 +1,74 @@
+.roleModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.roleModalDiv span {
+    margin-bottom: 30px;
+    font-size : 30px; 
+}
+
+.roleModalContainer {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);    
+    z-index: 1000;
+}
+
+.roleModalDiv {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 25px;    
+}
+
+.roleModalDiv label {
+    margin-right: 5px;
+    
+}
+
+.modalPhotoBt button {
+    background-color: #8CCEFD;
+    border : none;
+    padding : 5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.Title input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 70%;
+    border-radius: 15px;
+    text-indent: 1.2em;
+    background-color: #D4EDFF;
+}
+
+.file {
+    margin-top: 10px;
+    margin-left: 70px;
+}

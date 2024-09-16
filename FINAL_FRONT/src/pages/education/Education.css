@@ -1,0 +1,163 @@
+.eduBack {
+    background-color: #ffffff;
+      border-radius: 15px;
+      width: 1150px;
+      height: 780px;
+      left: 300px;
+      top : 170px;
+      position: absolute;
+}
+
+.eduList {
+    position:absolute;
+    top: 40px;
+    left: 140px;
+    padding: 1.5% 3%; 
+    font-family: 'SUITE-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 54px;
+     
+    color: #5b5b5b;
+}
+
+.eduListBox {
+    position:absolute;
+    top : 110px;
+    left : 50px;
+    border: 1px solid black;
+    width : 350px;
+    height : 620px;
+    /* border-radius: 20px; */
+}
+
+.eduTitle {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.eduStatus {
+    position: absolute;
+    margin-left: 250px;
+    border : none;
+    padding : 5px 10px;
+    border-radius: 15px;
+    font-size: 13px; 
+}
+
+.eduPer {
+    
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.eduPer span {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.eduDate {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.eduListHr {
+    margin-left: -1px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+.edListBt1 {
+    position:absolute;
+    left: 700px;
+    top: 130px;
+}
+
+.edListBt2 {
+    position:absolute;
+    left: 700px;
+    top : 350px;
+}
+
+.edListBt3 {
+    position:absolute;
+    left: 700px;
+    top : 580px;
+}
+
+.edListBt1 button {
+    background-color: #DEF4B8;
+    border : none;
+    padding : 20px 80px;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+}
+
+.edListBt1 button:hover {
+    background-color: #A9D361;
+    cursor: pointer;
+}
+
+.edListBt2 button {
+    background-color: #FBE3C7;
+    border : none;
+    padding : 20px 80px;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+}
+
+.edListBt2 button:hover {
+    background-color: #E59D48;
+    cursor: pointer;
+}
+
+.edListBt3 button {
+    background-color: #F4F2B8;
+    border : none;
+    padding : 20px 80px;
+    text-align: center;
+    border-radius: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'SUITE-Regular';
+}
+
+.edListBt3 button:hover {
+    background-color: #FAF55F;
+    cursor: pointer;
+}
+
+.eduListRg {
+    position:absolute;
+    left: 1030px;
+    top: 50px;
+}
+
+.eduListRg button {
+    margin-left: 20px;
+    background-color: white;
+    font-family: 'SUITE-Regular';
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 5px;
+    padding : 5px 10px;
+    background-color: rgba(140, 206, 253, 0.5);
+}
+
+.eduListRg button:hover {
+    background-color: rgba(140, 206, 253, 1.0);
+    cursor: pointer;
+}
+
+
